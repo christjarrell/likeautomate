@@ -14,7 +14,8 @@ permissions:
 
 jobs:
   update_commit:
-    runs-on: ubuntu-latest # Specifies the runner
+#    runs-on: ubuntu-latest # Specifies the runner
+    runs-on: self-hosted
 
     steps:
       - name: Setup Debug Information
